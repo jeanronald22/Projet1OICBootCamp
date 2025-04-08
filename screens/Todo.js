@@ -32,6 +32,7 @@ const Todo = () => {
 				<TextInput
 					style={styles.input}
 					value={title.title}
+					// onChnageText est appeler a chaque changement de valeur
 					onChangeText={(text) =>
 						settitle((prev) => ({
 							...prev,
